@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Parentesco extends Model
 {
-    protected $table = "Parentesco";
+    protected $table = "parentesco";
 
     protected $fillable = [
         'id', 'crmit_codigounico', 'crmit_name', 'crmit_quedefine'

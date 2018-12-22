@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Transferencia extends Model
 {
-    protected $table = "Transferencia";
+    protected $table = "transferencia";
 
     protected $fillable = [
         'id', 'crmit_transferencialinea'

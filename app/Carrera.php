@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Carrera extends Model
 {
-    protected $table = "Carrera";
+    protected $table = "carrera";
 
     protected $fillable = [
         'codigounico', 'name'

@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Nivel extends Model
 {
-    protected $table = "Nivel de Estudios";
+    protected $table = "nivel de estudios";
 
     protected $fillable = [
         'crmit_name', 'crmit_codigounico'
