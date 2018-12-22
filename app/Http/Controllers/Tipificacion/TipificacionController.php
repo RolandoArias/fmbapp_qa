@@ -18,7 +18,7 @@ class TipificacionController extends Controller
     public function getAll()
     {
         //$tipificacion = Tipificacion::all();
-        $tipificacion = DB::table('Tipificacion')->get();
+        $tipificacion = DB::table('tipificacion')->get();
         return response()->json($tipificacion, 200);
     }
 

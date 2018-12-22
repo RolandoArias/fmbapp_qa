@@ -21,7 +21,7 @@ class AsesorController extends Controller
 
     public function getGrupalAll($nivel)
     {
-        $asesores =DB::table('Asesor_grupal')->where('nivelgrupalid',$nivel)->get();
+        $asesores =DB::table('asesor_grupal')->where('nivelgrupalid',$nivel)->get();
         return response()->json($asesores, 200);
     }
     /**
