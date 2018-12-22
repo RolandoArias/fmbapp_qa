@@ -1,0 +1,1 @@
+[08-Nov-2018 22:56:10 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/devmxcom/public_html/fmbapp/app/Tipificacion.php on line 7
