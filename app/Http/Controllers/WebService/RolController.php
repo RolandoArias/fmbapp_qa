@@ -46,7 +46,7 @@ public function getToken(Request $resquet){
 
     $codigo = $resquet->code;
 
-    $url_prod = "http://localhost:4200";
+    $url_prod = "http://10.210.159.46";
 
     //$url_prod  = "http://10.210.159.46";
     $connection_url = $url_prod;
@@ -126,7 +126,7 @@ public function getToken(Request $resquet){
         /////////////////////////////////////////////
         // url de configuración para prod o debug  //
         /////////////////////////////////////////////
-        $url_prod = "http://localhost:4200";
+        $url_prod = "http://10.210.159.46";
        // $url_prod = "https://www.calidadacademica.mx";
         $connection_url = $url_prod;
         $fields = array(
