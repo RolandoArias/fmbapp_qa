@@ -10,7 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+$router->get('/', function(){
+    return 'ok';
+});
 $router->group(['prefix' => 'api'], function() use ($router){
 
     /*--- Asesor Cita ---*/
