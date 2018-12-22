@@ -16,7 +16,7 @@ class AreaInteresController extends Controller
     public function getAll()
     {
 
-        $areasinteres = DB::table('Área Interes')->get();
+        $areasinteres = DB::table('área interes')->get();
         
         return response()->json($areasinteres, 200);
     }
