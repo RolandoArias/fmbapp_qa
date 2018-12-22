@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Campus extends Model
 {
-    protected $table = "Campus";
+    protected $table = "campus";
 
     protected $fillable = [
         "crmit_name", "crmit_codigounico", "crmit_tb_campusid"
